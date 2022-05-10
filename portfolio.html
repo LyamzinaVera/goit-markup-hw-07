@@ -15,9 +15,9 @@
       <nav class="header__nav">
         <a href="#" class="logo first">Web<span class="logo--black">Studio</span></a>
         <ul class="nav list">
-          <li class="nav__item"><a href="./index.html">Студия</a></li>
-          <li class="nav__item"><a href="#" class="nav__link nav--current">Портфолио</a></li>
-          <li class="nav__item"><a href="#">Контакты</a></li>
+          <li class="nav__item"><a class="nav__link" href="./index.html">Студия</a></li>
+          <li class="nav__item"><a class="nav__link nav__link--current" href="#" >Портфолио</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
         </ul>
       </nav>
       <ul class="auth">
@@ -191,39 +191,39 @@
        <div>
           <a href="#" class="logo second">Web<span class="logo--white">Studio</span></a>
           <address>
-            <ul>
-              <li class="adress">
-                <a href="https://bit.ly/3pXMvUd" target="_blank" rel="noopener noreferrer" class="address__logo">г. Киев, пр-т Леси
+            <ul class="address">
+              <li class="address__item">
+                <a href="https://bit.ly/3pXMvUd" target="_blank" rel="noopener noreferrer" class="address__link">г. Киев, пр-т Леси
                   Украинки, 26</a>
               </li>
-              <li class="adress__mail"><a href="info@example.com" class="address__mail-logo">info@example.com</a></li>
-              <li class="adress__mail"><a href="tel:380991111111" class="address__mail-logo">+38 099 111 11 11</a></li>
+              <li class="address__email"><a href="info@example.com" class="contacts">info@example.com</a></li>
+              <li class="address__email"><a href="tel:380991111111" class="contacts">+38 099 111 11 11</a></li>
             </ul>
           </address>
        </div>
         <div class="social-web">
-          <h3 class="title white">присоединяйтесь</h3>
-          <ul class="social">
-            <li class=insta><a href="#" class="twit">
-                <svg class="insta-menu__item" width="20px" height="20px">
+          <h3 class="features__title features__title--white">присоединяйтесь</h3>
+          <ul class="set">
+            <li class="set__window"><a href="#" class="set__icon">
+                <svg width="20px" height="20px">
                   <use href="./img/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class=insta><a href="#" class="twit">
-                <svg class="insta-menu__item" width="20px" height="20px">
+            <li class="set__window"><a href="#" class="set__icon">
+                <svg width="20px" height="20px">
                   <use href="./img/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class=insta><a href="#" class="twit">
-                <svg class="insta-menu__item" width="20px" height="20px">
+            <li class="set__window"><a href="#" class="set__icon">
+                <svg width="20px" height="20px">
                   <use href="./img/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class=insta><a href="#" class="twit">
-                <svg class="insta-menu__item" width="20px" height="20px">
+            <li class="set__window"><a href="#" class="set__icon">
+                <svg width="20px" height="20px">
                   <use href="./img/icons.svg#icon-linkedin"></use>
                 </svg>
           
@@ -232,11 +232,11 @@
           </ul>
        </div>
        <form class="footer-form" name="subscription-form" action="#" autocomplete="off">
-          <label class="subscription-label" for="subscription">Подпишитесь на рассылку</label>
-          <div class="subscribe">
-            <input class="subscription-input" id="subscription" type="email" name="subscription" placeholder="E-mail">
-            <button class="button-primary subscription-button" type="submit">Подписаться
-              <svg class="subscription-icon" width="24" height="24">
+          <label class="footer-form__label" for="subscription">Подпишитесь на рассылку</label>
+          <div class="footer-form__subscribe">
+            <input class="footer-form__input" id="subscription" type="email" name="subscription" placeholder="E-mail">
+            <button class="hero__button footer-form__button" type="submit">Подписаться
+              <svg class="footer-form__icon" width="24" height="24">
                 <use href="./img/icons.svg#icon-send"></use>
               </svg>
             </button>
