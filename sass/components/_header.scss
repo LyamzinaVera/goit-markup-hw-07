@@ -1,20 +1,44 @@
 .header {
     border-bottom: 1px var(--line-color) solid;
+
+    &__label {
+        display: flex;
+    }
+
 }
 
-.nav__flex {
-    display: flex;
-    align-items: center;
 
+.logo {
+    display: block;
+    color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+
+    &--black {
+        color: var(--title-text-color)
+    }
 }
 
-.header__nav {
-    display: flex;
+.first {
+    padding-top: 24px;
+    padding-bottom: 25px;
+
 }
 
 .nav {
     display: flex;
     margin-left: 93px;
+
+    &__flex {
+     display: flex;
+     align-items: center;
+    
+     }
+
+    
 }
 
 .nav__item {
@@ -68,9 +92,13 @@
      border-radius: 2px;
      background-color: var(--accent-color);
      position: absolute;
-}
+    }
 
 }
+
+
+
+
 
 
 

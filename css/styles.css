@@ -51,14 +51,13 @@ img {
 .header {
    border-bottom: 1px var(--line-color) solid;
 }
+
 .nav__flex {
     display: flex;
     align-items: center;
     
 }
-.header__nav {
-    display: flex;
-}
+
 .nav {
     display: flex;
     margin-left: 93px;
@@ -277,6 +276,23 @@ img {
 .team {
     background-color: var(--background-color-alternativ);
 }
+.features__title--text {
+
+    width: 370px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+
+    color: var(--primary-white-color);
+    background-color: rgba(47, 48, 58, 0.8);
+    ;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
 
 /* work-blok */
 .work-blok {
@@ -296,22 +312,7 @@ position: relative;
 
 }
 
-.features__title--text {
-    
-    width: 370px;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0;
 
-    color: var(--primary-white-color);
-    background-color:rgba(47, 48, 58, 0.8); ;
-   
-    position: absolute;
-    left: 0;
-    bottom: 0;
-}
 
 
 
@@ -464,12 +465,6 @@ opacity: 1;
    transition: transform 250ms var(--cubik);
    
 }
-
-.project__title {
-    color: var(--title-text-color);
-}
-
-
 
   
 /* button */
@@ -644,13 +639,6 @@ color: var(--accent-color);
     margin-bottom: 20px;
 }
 
-/* .social {
-    display: flex;
-    }
-
-.insta {
-    margin-right: 10px;
-} */
 .set__icon {
     display: flex;
     width: 44px;
@@ -880,7 +868,7 @@ textarea{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.checkbox-icon {
+.checkbox__icon {
     display: inline-block;
     margin-right: 9px;
     width: 16px;
@@ -888,7 +876,7 @@ textarea{
     border: 2px solid var(--title-text-color);
     border-radius: 4px;
 }
-.checkbox:checked + .checkbox-icon {
+.checkbox:checked + .checkbox__icon {
     border-color: var(--accent-color);
     background-color: var(--accent-color);
     background-image: url(../img/icon-check.svg);

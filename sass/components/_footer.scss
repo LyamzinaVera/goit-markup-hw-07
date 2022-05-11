@@ -1,0 +1,51 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--background-color);
+
+}
+
+.web {
+    display: flex;
+    align-items: baseline;
+}
+
+.social-web {
+    margin-left: 70px;
+}
+
+.address__item {
+    margin-top: 20px;
+}
+
+.address__email {
+    margin-top: 9px;
+    text-decoration: none;
+}
+
+.logo--white {
+    color: var(--primary-white-color);
+}
+
+.address__link {
+    color: var(--primary-white-color);
+    text-decoration: none;
+    font-style: normal;
+}
+
+.address__link:hover,
+.address__link:focus {
+    color: var(--accent-color);
+}
+
+.contacts {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-style: normal;
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
